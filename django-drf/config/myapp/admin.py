@@ -6,7 +6,7 @@ class QuestionAdmin(admin.ModelAdmin):
 
 
 class ChoiceAdmin(admin.ModelAdmin):
-    list_display = ['question', 'choice_text', 'votes']
+    list_display = ['question', 'question_text', 'votes']
 
 
 admin.site.register(Question)
