@@ -10,4 +10,4 @@ class QuestionSerializer(serializers.ModelSerializer):
 class ChoiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Choice
-        fields = ('question', 'choice_text', 'votes')
+        fields = ('question', 'question_text', 'votes')
